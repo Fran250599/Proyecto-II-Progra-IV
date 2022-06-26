@@ -3,6 +3,11 @@
     left: 25%;
     width: 150px;  
     top: 60px; 
+    max-height: 800px;
+    max-width: 90%;
+    width: 1500px;
+    height: 1500px;
+    overflow-y: scroll;
    
 }
 
