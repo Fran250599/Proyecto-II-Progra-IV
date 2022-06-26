@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7b19f83de5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/NavigationBar.css">
     <link rel="stylesheet" href="styles/Style.css">
-    <link rel="stylesheet" href="styles/Schedule.css">
-    <link rel="stylesheet" href="styles/Table.css">
-    <title>Agenda</title>
+    <link rel="stylesheet" href="styles/UpdatePacientData.css">
+    <link rel="stylesheet" href="styles/NavigationBar.css">
+    <link rel="stylesheet" href="styles/Menu.css">
+    <title>Actualizar informacion</title>
 </head>
 <body>
-    
+
     <nav>
         <ul>
             <br>
@@ -60,7 +60,7 @@
             </li>
 
             <li>
-                <a href="about.html" class="logout">
+                <a href="about.hmtl" class="logout">
                     <i class="fas fa-sign-out-alt"></i>
                     <span class="nav-item">Cerrar Sesión</span>
                 </a>    
@@ -70,41 +70,26 @@
     </nav>
 
     <main>
+        <div class="container">
+            <h1 class="txt-1">Gestionar la información de los pacientes</h1>
 
-        <div>
-            <h1 class="txt-1">Agenda de citas</h1>
+            <form action="/pages/ChangePacientData.html">
+                
+                <div class="container1">
+                    <h2 class="txt-2">Nombre del paciente:</h2>
+                    <div class="input-field">
+                        <input type="pacient-name" id="date" style="width:250px">
+                    </div>
+                </div>
+
+                <div class="container-2">
+                    <br><br>   
+                    <input type="submit" class="btn-send" value="Siguiente">
+                   </div>
+            </form>
+
         </div>
-
-
-        <div class="tabla-info">
-
-            <table class="content-table">
-                <thead>
-                  <tr>
-                    <th>HORA</th>
-                    <th>LUNES</th>
-                    <th>MARTES</th>
-                    <th>MIERCOLES</th>
-                    <th>JUEVES</th>
-                    <th>VIERNES</th>
-                    <th>SABADO</th>
-                    <th>DOMINGO</th>
-                  </tr>
-                </thead>
-    
-                <tbody id="Tabla">
-                  
-
-                </tbody>
-
-              </table>
-         </div>
-
-
-
     </main>
-
-    <script type="text/javascript" src="../scripts/opera.js"></script>
+    
 </body>
-
 </html>

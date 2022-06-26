@@ -12,15 +12,27 @@ function login(){
         
         let request = new Request(url+'api/login', {method: 'POST', headers: { 'Content-Type': 'application/json'},body: JSON.stringify(usuario)});
         (async ()=>{
+            
+     
+            
             const response = await fetch(request);
-            if (!response.ok) {console.log("Error");return;}
+            
+            if (!response.ok) {
+                alert("Usuario o contraseña incorrecta.");
+
+            }
+            
             usuario = await response.json();
             sessionStorage.setItem('user', JSON.stringify(usuario));
                 
-            if(usuario.rol == "ADM"){
-                document.location = url + "Schedule.html";
+            if(usuario.rol === "ADM"){
+               
+            document.location = url + "Schedule.html";
+            return;
+            }else{
+                alert("Pacientes no tienen acceso al sistema.")
             }
-        
+            alert("Usuario o contraseña incorrecta."); 
         })(); 
 }
 

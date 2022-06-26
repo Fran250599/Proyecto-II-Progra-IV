@@ -5,7 +5,9 @@
         <group name="REVISION"/>
         <group name="PrograIV"/>
         <group>
-            <file>file:/C:/Users/XPC/Desktop/Estudio/UNA/Actualmente/Progra-IV/Proyecto-II/Ejemplos/PersonasIntegradoMultipart/PersonasIntegradoMultipart/PersonasIntegradoMultipart/src/java/com/progra/personas/resources/Login.java</file>
+            <file>file:/C:/Users/XPC/Desktop/Estudio/UNA/Actualmente/Progra-IV/Proyecto-II/Ejemplos/PersonasIntegradoMultipart/PersonasIntegradoMultipart/PersonasIntegradoMultipart/src/java/dao/DatabaseConnection.java</file>
+            <file>file:/C:/Users/XPC/Desktop/Estudio/UNA/Actualmente/Progra-IV/Proyecto-II/Ejemplos/PersonasIntegradoMultipart/PersonasIntegradoMultipart/PersonasIntegradoMultipart/src/java/com/progra/personas/logic/Doctor.java</file>
+            <file>file:/C:/Users/XPC/Desktop/Estudio/UNA/Actualmente/Progra-IV/Proyecto-II/Ejemplos/PersonasIntegradoMultipart/PersonasIntegradoMultipart/PersonasIntegradoMultipart/src/java/com/progra/personas/logic/Service.java</file>
         </group>
     </open-files>
 </project-private>
