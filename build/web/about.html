@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+       <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
+        <title>Proyecto 2</title>
+        <link rel="stylesheet" href="styles/Style.css">
+        <link rel="stylesheet" href="styles/SignIn.css">
+        <script src="js/login.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        
+        <div class="forms-container">
+           
+            <div class="signin-signin">
+                <form action="/pages/Schedule.html" class="sign-in-form">
+                    <h2 class="title"> Inicio de sesión </h2>
+
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Identificación" id="id">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Contraseña" id="clave" >
+                    </div>
+
+                    <button type="submit" class="btn solid" value="Iniciar sesión" onclick="login()">Iniciar sesion</button>
+                    
+                </form>
+            </div>
+
+        </div>
+        
+           <!---->
+        <div class="panels-container">
+
+            <form action="/pages/SignUp.html">
+
+                <div class="panel left-panel">
+
+                    <div class="content">
+                        <h3>¿No tienes una cuenta?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti quidem eligendi alias unde aliquam! Temporibus, nihil maxime quasi odit ex voluptatum ut unde cumque itaque rem? Quis, voluptatum culpa.</p>
+                        <button class="btn transparent" id="sign-up-button" >Registrarme</button>
+                        <p></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
